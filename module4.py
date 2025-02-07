@@ -10,6 +10,6 @@ for i in range(N):
 X = int(input("Please enter an integer: "))
 
 if X in numbers:
-    print(numbers.index(X) + 1)  # Convert to 1-based index
+    print(numbers.index(X) + 1)
 else:
     print("-1")
